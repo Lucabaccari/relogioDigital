@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Kanit", sans-serif
+}
+
+body{
+    height: 100vh;
+    background-image: radial-gradient(circle at 86.78% 40.14%, #96bcff 0, #3c78f2 50%, #003988 100%);
+    
+    /*Importante centralizar os elementos na DIV pai para que as DIVs filhas possam ser centralizadas também*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.relogio {
+    height: 200px;
+    width: 730px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: transparent;
+    border-radius: 4px;
+    box-shadow: 0px 8px 10px 3px rgba(0, 0, 0, 0.5);
+    
+}
+
+.relogio div {
+    height: 170px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 4px;
+    color: #fff;
+    background: rgba(0, 0, 1, 0.65);
+    box-shadow: 5px 5px 15px 5px #3c78f2;
+    border: 7px;
+    letter-spacing: 2px;
+
+}
+
+.relogio span {
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.relogio span.tempo {
+    font-size: 10px;
+}
