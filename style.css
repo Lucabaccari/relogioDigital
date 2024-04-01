@@ -67,3 +67,22 @@ body{
         font-size: 40px;
     }
   }
+
+  @media (width <= 450px) {
+    .relogio{
+        width: 300px;
+    }
+
+    .relogio div {
+        height: 118px;
+        width: 62px;
+    }
+
+    .relogio span {
+        font-size: 25px;
+    }
+
+    .relogio span.tempo {
+        font-size: 6px;
+    }
+  }
